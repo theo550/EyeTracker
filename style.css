@@ -1,0 +1,37 @@
+html, body{
+  background-color: pink;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.eyes{
+  position: absolute;
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.eye{
+  width: 240px;
+  height: 120px;
+  background-color: white;
+  margin-right: 20px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.ball{
+  background-color: black;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(50%, 50%);
+}
